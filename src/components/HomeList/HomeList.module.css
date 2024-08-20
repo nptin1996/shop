@@ -1,0 +1,25 @@
+.homeList {
+  margin-top: 1rem;
+}
+
+.listItem {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 576px) {
+  .listItem {
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 350px) {
+  .listItem {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

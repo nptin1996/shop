@@ -1,0 +1,48 @@
+.chatBox {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: end; */
+  gap: 0.5rem;
+}
+.chatBox li {
+  max-width: 85%;
+}
+
+.chatBox p {
+  margin: 0;
+  word-wrap: break-word;
+}
+.client {
+  align-self: end;
+  /* text-align: end; */
+}
+.client p {
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #4cb4f4;
+}
+
+.admin div {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+}
+
+.admin p {
+  display: inline;
+  padding: 0.5rem;
+  color: #8f9399;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.error p {
+  color: #ff7894;
+  padding: 0.5rem;
+  align-self: center;
+}

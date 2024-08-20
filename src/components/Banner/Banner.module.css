@@ -1,0 +1,28 @@
+.banner {
+  color: #333;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  padding: 0 3.5rem;
+}
+
+.text p {
+  color: #8f9399;
+  letter-spacing: 1px;
+}
+
+.text h1 {
+  margin-bottom: 2.5rem;
+  width: 80%;
+}
+
+@media (max-width: 576px) {
+  .text {
+    padding: 0 1rem;
+  }
+}

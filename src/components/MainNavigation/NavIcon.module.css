@@ -1,0 +1,54 @@
+.nav {
+  position: relative;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+.icon svg {
+  width: 30px;
+  fill: #555555;
+}
+
+.link {
+  list-style: none;
+  margin: 0;
+  padding: 1rem 0.5rem;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  width: 150px;
+  box-shadow: 0 0 8px 4px #b1b2b8;
+  border-radius: 4px;
+  animation: slip 0.6s forwards;
+}
+
+.link li {
+  padding: 0.5rem 1rem;
+}
+
+a.active {
+  color: #e4bc7a;
+}
+
+.link a:hover svg {
+  fill: #e4bc7a;
+}
+a.active svg {
+  fill: #e4bc7a;
+}
+
+.history {
+  padding-right: 0 !important;
+}
+
+@keyframes slip {
+  0% {
+    transform: translate(0, -10px);
+  }
+  100% {
+    transform: translate(0, 10px);
+  }
+}

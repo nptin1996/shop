@@ -1,0 +1,48 @@
+.title {
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.categoryBar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.categoryBar li {
+  padding: 1rem 1.5rem;
+}
+.headList {
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+}
+
+.category {
+  background-color: #f3f3f3;
+  font-weight: 600;
+}
+.categoryBar a {
+  color: #b1b2b8;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+.categoryBar a:hover {
+  color: #e4bc7a;
+}
+
+a.active {
+  color: #e4bc7a;
+}
+
+/* responsive categorybar */
+.accordion {
+  margin-bottom: 2rem;
+}
+
+.accordion p {
+  margin: 0;
+  font-weight: 600;
+  font-style: italic;
+}

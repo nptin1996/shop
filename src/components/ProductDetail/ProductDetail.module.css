@@ -1,0 +1,18 @@
+.layout {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.layoutFail {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .layout {
+    width: 100%;
+    margin: 0;
+  }
+}

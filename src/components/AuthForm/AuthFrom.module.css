@@ -1,0 +1,106 @@
+.authForm {
+  position: relative;
+  height: 70vh;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.form {
+  width: 100%;
+  max-width: 450px;
+  background-color: #fff;
+  padding: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  box-shadow: 0 0 10px 1px #b1b2b8;
+}
+
+.form h3 {
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+  color: #666666;
+  padding: 1rem 0 4rem;
+  position: relative;
+}
+
+.form button {
+  display: block;
+  border: none;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background-color: #444444;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 1.2rem 0;
+  margin-top: 1rem;
+}
+.form button:hover {
+  background-color: #333;
+}
+
+.form ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #c0c1c9;
+}
+
+.form li {
+  padding: 1.2rem;
+  border-bottom: 1px solid #c0c1c9;
+}
+.form li:last-child {
+  border: none;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.form a {
+  text-decoration: none;
+  font-size: 16px;
+  font-style: italic;
+}
+.form p {
+  color: #b1b2b8;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.form .message {
+  font-size: 16px;
+  color: red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.load {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -10px);
+}
+
+.load h6 {
+  font-size: 15px;
+}
+
+.load h6::first-letter {
+  text-transform: uppercase;
+}
+
+@media (max-width: 450px) {
+  .form {
+    padding: 1.5rem;
+  }
+}

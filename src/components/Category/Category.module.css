@@ -1,0 +1,21 @@
+.category {
+  margin-top: 3rem;
+}
+
+.category img {
+  display: block;
+  width: 100%;
+}
+
+.category img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3s ease-out;
+}
+
+@media (max-width: 576px) {
+  .category img {
+    height: 100%;
+    max-height: 300px;
+  }
+}

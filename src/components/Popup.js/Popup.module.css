@@ -1,0 +1,54 @@
+.dialog {
+  border: none;
+  outline: none;
+  width: 70%;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.dialog img {
+  display: block;
+  width: 100%;
+}
+
+.dialog::backdrop {
+  background-color: #333;
+  opacity: 0.8;
+}
+
+.text {
+  padding: 4rem 2rem 1rem 3rem;
+  position: relative;
+}
+
+.text p:nth-child(2) {
+  font-size: 20px;
+  color: #9899a0;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.text p:nth-child(3) {
+  font-size: 14px;
+  color: #b1b2b8;
+  margin-bottom: 2rem;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.close svg:hover {
+  fill: #e4bc7a;
+}
+
+@media (max-width: 992px) {
+  .dialog {
+    width: 90%;
+  }
+  .text {
+    padding: 1.5rem;
+  }
+}

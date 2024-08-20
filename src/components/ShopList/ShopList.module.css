@@ -1,0 +1,69 @@
+.shopList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.animated {
+  animation: fadeInScale 1s ease-out;
+}
+
+.loadMore {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.pagination {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222222;
+  transform: rotate(-90deg);
+  border-radius: 6px;
+  box-shadow: 0 0 1px 1px #e9ecef;
+}
+
+.pagination:hover {
+  background-color: #444;
+  cursor: pointer;
+}
+
+.pagination:active {
+  background-color: #000;
+}
+
+.pagination svg {
+  fill: #fff;
+}
+
+/* Định nghĩa animation cho div */
+@keyframes fadeInScale {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 576px) {
+  .shopList {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .shopList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

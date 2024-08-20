@@ -1,0 +1,14 @@
+.title {
+  font-weight: 500;
+}
+
+.title p:first-child {
+  color: #b1b2b8;
+  margin: 0;
+  font-size: 13px;
+}
+
+.title p:last-child {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}

@@ -1,0 +1,34 @@
+.totalList {
+  padding-left: 3.5rem;
+}
+
+.totalList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.totalList li {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  border-bottom: 1px solid #cbccd3;
+}
+
+.totalList li:last-child {
+  font-size: 20px;
+  border: none;
+}
+
+.totalList p {
+  margin: 0;
+  font-weight: 400;
+  color: #a4a5ac;
+  text-align: end;
+}
+
+@media (max-width: 1200px) {
+  .totalList {
+    padding-left: 1rem;
+  }
+}

@@ -1,0 +1,53 @@
+.shipCol {
+  margin: 3rem 0;
+  padding: 3rem 0;
+  background-color: #f4f5f9;
+}
+
+.information p {
+  margin: 0;
+  line-height: 1.6;
+  font-weight: 500;
+}
+.information p:first-child {
+  font-size: 18px;
+  font-weight: 500;
+}
+.information p:last-child {
+  font-size: 14px;
+  color: #b1b2b8;
+}
+
+.information.title p:first-child {
+  font-size: 22px;
+}
+
+.form {
+  display: flex;
+}
+
+.form input {
+  width: 100%;
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #b1b2b8;
+}
+.form input:focus {
+  outline: none;
+}
+
+.form a {
+  display: inline-flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .form {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+  }
+  .form a {
+    font-size: 16px;
+  }
+}

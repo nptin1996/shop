@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  background-color: #f4f5f9;
+}
+
+.header h3 {
+  font-weight: 600;
+  margin: 0;
+}
+.header p {
+  margin: 0;
+  color: #b1b2b8;
+  font-weight: 600;
+  text-align: end;
+}
+
+.header span {
+  color: #333;
+}
+.header span:last-child {
+  color: #b1b2b8;
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 5rem 1rem;
+  }
+}

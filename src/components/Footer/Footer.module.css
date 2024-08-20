@@ -1,0 +1,30 @@
+.footer {
+  background-color: #000;
+  color: #ffffffd8;
+  padding: 5rem 0;
+}
+
+.footer h5 {
+  margin-bottom: 1.5rem;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+  .footer h5 {
+    margin-bottom: 1rem;
+  }
+  .footer ul li:last-child {
+    margin-bottom: 2rem;
+  }
+}

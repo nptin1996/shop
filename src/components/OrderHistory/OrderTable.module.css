@@ -1,0 +1,52 @@
+.ortherContainer {
+  min-height: 40vh;
+  margin: 3rem 0;
+}
+
+.tableOrder {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.tableOrder th {
+  font-weight: 600;
+  padding: 1rem;
+  background-color: #f4f5f9 !important;
+}
+
+.tableOrder td {
+  padding: 0.5rem;
+  vertical-align: middle;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 14px;
+  justify-content: space-between;
+  border: 1px solid #333;
+}
+
+.view:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.view:active {
+  border: 1px solid #51cf66;
+  color: #51cf66;
+}
+
+.view:active svg {
+  fill: #51cf66;
+}
+
+.view svg {
+  width: 20px;
+}
+
+@media (max-width: 1400px) {
+  .hidden {
+    display: none;
+  }
+}

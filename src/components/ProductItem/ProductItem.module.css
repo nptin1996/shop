@@ -1,0 +1,30 @@
+.productItem {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* justify-content: space-between; */
+}
+
+.productItem p {
+  margin: 0;
+}
+
+.productItem:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease-out;
+}
+
+.productItem p:nth-child(2) {
+  font-weight: 600;
+}
+
+.productItem p:last-child {
+  color: #b1b2b8;
+}
+
+.productItem img {
+  display: block;
+  width: 100%;
+}

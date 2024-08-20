@@ -1,0 +1,22 @@
+.cartBar img {
+  display: block;
+  width: 100%;
+}
+
+.cartBar h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.cartBar li:nth-child(2) {
+  padding: 0 1rem;
+}
+
+.cartBar p {
+  color: #9899a0;
+  margin: 0;
+}
+.icon:hover {
+  cursor: pointer;
+  fill: #9899a0;
+}

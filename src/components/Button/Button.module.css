@@ -1,0 +1,19 @@
+.button {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 10px 2rem 12px;
+  background-color: #383838;
+  color: #fff;
+}
+.button:hover,
+.button:active {
+  background-color: #535353;
+}
+
+@media (max-width: 576px) {
+  .button {
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+  }
+}
